@@ -38,3 +38,22 @@ Check the status of a repository
 ```console
 git commit status
 ```
+
+## Git Add
+Staging changes to be committed
+
+Add a entire working directory to the staging area:
+```console
+git add .
+```
+
+Add a single file:
+```console
+git add somefile.txt
+```
+
+Remove a file from the staging area:
+```console
+git reset .
+```
+
